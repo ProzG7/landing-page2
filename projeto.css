@@ -47,7 +47,7 @@ nav a {
 .home{
     display: flex;
 
-    height: 170vh;
+    height: 400vh;
     color: #fff;
     min-height: 100%;
     max-height: 100%;
@@ -78,7 +78,7 @@ nav a {
 
 .intro-title{
     position: relative;
-    top: -1050px;
+    top: -2700px;
     margin-left: 510px;
     font-size: 2.7rem;
     color: rgb(252, 252, 252);
@@ -89,13 +89,15 @@ nav a {
 .division1{
     max-width: 40%;
     position: relative;
-    top: -1130px;
+    top: -2780px;
     margin-left: 500px ;
+    color: #e100ff;
+    background-color: #e100ff;
 }
 
 .intro{
     position: relative;
-    top: -1040px;
+    top: -2690px;
     margin-top: -50px;
     margin-left: 480px;
     font-size: 2.5rem;
@@ -108,22 +110,56 @@ nav a {
 
 #video{
     position: relative;
-    top: -1730px;
+    top: -3380px;
     margin-left: 60px;
 }
 
 .IAclass{
     position: relative;
-    top: -1100px;
+    top: -3200px;
     margin-left: 20px ;
     margin-right: 20px;
     font-size: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.267);
+    background-color: rgba(22, 7, 65, 0);
     border-radius: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'ethnocentric';
     src: url('TT\ Octosquares\ Trial\ Medium.ttf') format('truetype');
     word-spacing: -5px;
+}
+
+.title-IA{
+    color: #e100ff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.text-IA{
+    padding: 20px 20px 20px 20px;
+    color: #f5a8ff;
+
+}
+
+.title-comp-quant{
+    color: #0ce955;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.text-comp{
+    padding: 20px 20px 20px 20px;
+    color: #76ffa4;
+}
+
+.title-web3{
+    color: #e90c0c;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.text-web3{
+    padding: 20px 20px 20px 20px;
+    color: #df7171;
 }
 
 .hero {
@@ -164,6 +200,13 @@ nav a {
 
 }
 
+
+.resto{
+    position: relative;
+    top: -1890px;
+    height: 40vh;
+}
+
 #contato {
     background: rgba(0, 0, 0, 0.904);
     color: white;
@@ -186,13 +229,22 @@ nav a {
     border-radius: 5px;
 }
 
+.concordobox{
+    position: relative;
+    top: 26px;
+    left: -150px;
+}
+
 #contato button {
+    margin-top: 19px;
     background: #FF4500; /* Laranja */
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
+    
 }
 
 footer {
